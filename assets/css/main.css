@@ -2561,6 +2561,8 @@ section {
   background-color: var(--color-primary);
   padding: 50px 0;
   color: white;
+  /* margin-bottom: -10rem; */
+  height: 13rem;
 }
 
 .footer .footer-info .logo {
@@ -2605,16 +2607,6 @@ section {
   border-color: #fff;
 }
 
-.footer h4 {
-  font-size: 16px;
-  font-weight: bold;
-  position: relative;
-  padding-bottom: 12px;
-}
-
-.footer .footer-links {
-  margin-bottom: 30px;
-}
 
 .footer .footer-links ul {
   list-style: none;
