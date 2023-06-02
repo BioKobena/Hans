@@ -291,3 +291,13 @@ document.addEventListener('DOMContentLoaded', () => {
   });
 
 });
+
+  // Récupérer la référence vers l'image de la voiture et le bouton "Valider"
+  var carImage = document.getElementById("carImage");
+  var btnValider = document.getElementById("btnValider");
+
+  // Ajouter un écouteur d'événements au clic sur le bouton "Valider"
+  btnValider.addEventListener("click", function() {
+    // Ajouter la classe d'animation à l'image de la voiture
+    carImage.classList.add("car-animation");
+  });

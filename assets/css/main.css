@@ -2677,3 +2677,14 @@ section {
   display: block;
   width: 100%;
 }
+
+  /* Définir une classe pour l'animation de défilement de la voiture */
+  .car-animation {
+    animation: carMovement 5s linear infinite;
+  }
+
+  /* Définir l'animation de défilement de la voiture */
+  @keyframes carMovement {
+    from { transform: translateX(0); }
+    to { transform: translateX(-100%); }
+  }
