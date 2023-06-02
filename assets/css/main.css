@@ -2680,7 +2680,7 @@ section {
 
   /* Définir une classe pour l'animation de défilement de la voiture */
   .car-animation {
-    animation: carMovement 5s linear infinite;
+    animation: carMovement 10s linear infinite;
   }
 
   /* Définir l'animation de défilement de la voiture */
