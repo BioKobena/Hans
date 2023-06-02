@@ -2688,3 +2688,14 @@ section {
     from { transform: translateX(0); }
     to { transform: translateX(-100%); }
   }
+
+  .slide-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #FF7F00;
+    font-size: 24px;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  }
